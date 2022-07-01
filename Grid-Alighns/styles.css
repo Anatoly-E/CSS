@@ -1,18 +1,25 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px;
+    height: 500px;
+    gap: 15px;
     border: 1px dashed #000;
-    align-items: ;          /*strtech start end center*/
-    justify-items: ;  /*strtech start end center*/
+    align-content: space-evenly;        /*strtech start end center space-around space-between space-evenly*/
+    justify-content: space-around;    /*strtech start end center space-around space-between space-evenly*/
 }
 
 .grid-item {
-    background-color: bisque;
-    border: 1px dashed #000;
+    width: 100px;
+    height: 100px;
 }
 
 .grid-item1 {
-    align-self: ;           /*stretch start end center*/
-    justify-self: ;         /*stretch start end center*/
+    background-color: rgb(66, 222, 81);
+}
+
+.grid-item2 {
+    background-color: rgb(147, 68, 212);
+}
+
+.grid-item3 {
+    background-color: rgb(139, 83, 14);
 }
